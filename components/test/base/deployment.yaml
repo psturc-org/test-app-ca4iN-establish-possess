@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: test
     spec:
       containers:
-      - image: quay.io/psturc/test-images:jvm-test12345678
+      - image: quay.io/psturc/test-images@sha256:a428434f4c5ad1250a772314954a252b5e5cca4c378df995af47efd3fdd63fe5
         imagePullPolicy: Always
         name: container-image
         resources: {}
